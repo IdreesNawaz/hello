@@ -1,0 +1,119 @@
+input{
+    margin-top: 5px;;
+    font-size: 25px;
+    border-radius: 15px;
+    color: black;
+    background-color: white; 
+}
+
+body{
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)) ,url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.calculator{
+   display: inline-block;
+   background-color:white;
+   height: 500px;
+   width: 350px;
+   border-radius: 5%;
+   /* box-shadow: 0 10px 20px -6px rgba(255, 255, 255, 0.774); */
+    box-shadow: 0 10px 20px 1px rgb(143 144 112 / 99%);/* box-sizing: border-box;*/
+   margin-bottom: 40px;
+
+}
+
+
+.container{
+   text-align: center;
+   margin-top: auto;
+}
+
+table{
+    margin: auto;
+    border-radius: 5px;
+}
+
+input{
+    margin-left: 5px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: black;
+    background-color: white; 
+    padding: 10px;
+    border: 1px solid green;
+}
+
+button{
+    margin-top: 15px;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    width: 77px;
+    border-radius: 50px;
+    height: 65px;
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px #888888;
+    font-weight: bold;
+}
+
+
+.divide{
+	color: green;
+	font-size: 35px;
+}
+.add{
+	color: green;
+	font-size: 40px;
+}
+.minus{
+	color: green;
+	font-size: 50px;
+}
+.multiply{
+	color: green;
+	font-size: 35px;
+
+}
+.per{
+	color: green;
+	font-size: 30px;
+}
+.dot{
+	color: green;
+	font-size: 50px;
+}
+
+.equal{
+	background-color: green;
+	color: white;
+	font-size: 40px;
+}
+
+.c{
+	color: red;
+	font-size: 30px;
+  font-weight: bold;
+}
+
+
+button:hover{
+  background-color: #FFFF00;
+  color: red;
+  font-size: 40px;
+  border: 1px solid white;
+}
+
+h1{
+  color: white;
+}
+
+.info{
+  color: white;
+}

@@ -1,0 +1,22 @@
+body{
+	background-image: url('bg1.jpg');
+	background-size: cover;
+	height: 80vh;
+	background-position: center;
+
+}
+
+
+p{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	display: inline-flex;
+	justify-content: space-between;
+	/*top: 50%;*/
+	/*position: absolute;
+	left: 50%;
+	transform: translate(-50% , -50%);*/
+
+	}

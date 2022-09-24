@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> On Click </title>
+</head>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+	<script> 
+
+		function add(argument) {
+		var a;
+		var b;
+		var a = parseInt(prompt("Enter value for a : "));
+		var b = parseInt(prompt("Enter value for b : "));
+		sum = a + b;
+		alert("Adding is = " + sum);
+		}
+
+		function sub(argument) {
+		var a;
+		var b;
+		var a = parseInt(prompt("Enter value for a : "));
+		var b = parseInt(prompt("Enter value for b : "));
+		Subtraction = a - b;
+		alert("Subtraction is = " + Subtraction);
+		}
+
+		function multi(argument) {
+		var a;
+		var b;
+		var a = parseInt(prompt("Enter value for a : "));
+		var b = parseInt(prompt("Enter value for b : "));
+		Multiplication = a * b;
+		alert("Multiplication is = " + Multiplication);
+		}
+
+		function div(argument) {
+		var a;
+		var b;
+		var a = parseInt(prompt("Enter value for a : "));
+		var b = parseInt(prompt("Enter value for b : "));
+		Division = a / b;
+		alert("Division is = " + Division);
+		}
+
+		// function per(argument) {
+		// var Obtained;
+		// var total;
+		// var a = parsedouble(prompt("Enter Obtained value : "));
+		// var b = parsedouble(prompt("Enter Total value : "));
+		// Pert = Obtained / total;
+		// Percentage = Pert * 100;
+
+		// alert("Percentage is = " + Percentage);
+
+		// }
+
+	</script>
+
+<body>
+
+	<p onclick="add();"> Adding </p>
+	<p onclick="sub();"> Subtraction </p>
+	<p onclick="multi();"> Multiplication </p>
+	<p onclick="div();"> Division </p>
+	<p onclick="per();"> Percentage </p>
+
+</body>
+</html>
